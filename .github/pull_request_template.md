@@ -1,22 +1,22 @@
-<!-- Thanks for contributing! -->
-<!-- Before you start on a large rewrite or other major change: open a new issue first, to discuss the proposed changes. -->
-<!-- Should your changes appear in a printed edition, you'll be included in the contributors list. -->
+<!-- Gràcies per la teva contribució! -->
+<!-- Abans de començar una reescriptura extensa o qualsevol altre canvi important: obre primer una nova incidència per debatre els canvis proposats. -->
+<!-- Si els teus canvis apareixen en una edició impresa, s'inclourà el teu nom a la llista de col·laboradors. -->
 
-<!-- Mark the checkbox [X] or [x] if you agree with the item. -->
-- [ ] I provide my work under the [project license](https://github.com/progit/progit2/blob/main/LICENSE.asc).
-- [ ] I grant such license of my work as is required for the purposes of future print editions to [Ben Straub](https://github.com/ben) and [Scott Chacon](https://github.com/schacon).
+<!-- Marca la casella [X] o [x] si estàs d'acord amb el punt. -->
+- [ ] Cedeixo la meva obra sota la [llicència del projecte](https://github.com/progit/progit2/blob/main/LICENSE.asc).
+- [ ] Concedeixo la llicència corresponent de la meva obra a [Ben Straub](https://github.com/ben) i [Scott Chacon](https://github.com/schacon) per a futures edicions impreses.
 
-## Changes
+## Canvis
 
-- 
+-
 
 ## Context
 <!--
-List related issues.
-Provide the necessary context to understand the changes you made.
+Enumera les incidències relacionades.
+Proporciona el context necessari per entendre els canvis que has fet.
 
-Are you fixing an issue with this pull-request?
-Use the "Fixes" keyword, to close the issue automatically after your work is merged.
+Estàs solucionant alguna incidència amb aquesta sol·licitud d'integració (pull request)?
+Utilitza la paraula clau "Fixes" per tancar la incidència automàticament un cop s'hagi integrat la teva feina.
 
 Fixes #123
 Fixes #456
