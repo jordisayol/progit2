@@ -1,44 +1,43 @@
-# Contributing to Pro Git (2nd Edition)
+# Contribuir a Pro Git (2a edició)
 
-## Licensing your work to us
+## Llicència de la vostra contribució
 
-When you open a pull request, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+En obrir una *pull request*, accepteu proporcionar la vostra feina sota la [llicència del projecte](LICENSE.asc).
+Així mateix, accepteu concedir a @ben i @schacon la llicència necessària sobre la vostra feina per a futures edicions impreses.
+Si els vostres canvis apareixen en una edició impresa, s'inclourà el vostre nom a la [llista de col·laboradors](book/contributors.asc).
 
-## Signaling an Issue
+## Notificar una incidència
 
-Search for similar issues, before creating a new issue.
+Cerqueu incidències similars abans de crear-ne una de nova.
 
-Also, if this issue has been spotted on the git-scm.com site, cross-check that the issue is present in the pdf version.
-The issue may have already been corrected in the source files, but not yet deployed to the git-scm.com site.
+A més, si heu detectat el problema al lloc web git-scm.com, comproveu si també és present a la versió PDF.
+És possible que la incidència ja s'hagi corregit als fitxers font, però que encara no s'hagi actualitzat al lloc web git-scm.com.
 
-## Small Corrections
+## Correccions menors
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so that we can discuss how or if the issue needs to be addressed.
+S'acceptaran errates i aclariments bàsics si considerem que milloren el contingut.
+També podeu obrir una incidència per debatre si cal abordar el problema i com fer-ho.
 
-If you've never done this before, the [flow guide](https://docs.github.com/en/get-started/quickstart/github-flow) might be useful.
+Si no ho heu fet mai, pot ser útil consultar la [guia del flux de treball](https://docs.github.com/en/get-started/quickstart/github-flow).
 
-## Large Rewrites
+## Reescriptures extenses
 
-Open an issue for discussion before you start.
-A large rewrite tends to be very subjective, often only clarifying things for a small amount of readers.
-Professional copy editors have already reviewed this content multiple times.
-It's unlikely that your prose is going to be *so* much better that it's worth changing large portions of text.
+Obriu una incidència per debatre-ho abans de començar.
+Una reescriptura extensa sol ser molt subjectiva i, sovint, només aclareix conceptes per a un nombre reduït de lectors.
+Professionals de l'edició i la correcció ja han revisat aquest contingut diverses vegades.
+És poc probable que la vostra redacció sigui tan superior com per justificar la modificació de grans fragments de text.
 
 ## Figures
 
-The images in this book are generated using [Sketch 3](https://www.sketch.com/), with the [included sketchbook file](diagram-source/progit.sketch).
+Les imatges d'aquest llibre s'han generat amb [Sketch 3](https://www.sketch.com/), utilitzant el [fitxer de Sketch inclòs](diagram-source/progit.sketch).
 
-To create a figure:
+Per crear una figura:
 
-1. Add a page to the sketchbook.
-Use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Name the slice so that it matches the destination PNG filename, relative from the root of the source directory.
-3. Set your slice to export at "800w".
+1. Afegiu una pàgina al fitxer de Sketch.
+Utilitzeu els símbols inclosos sempre que sigui possible.
+2. Afegiu una "àrea d'exportació" (*slice*) a la pàgina.
+Anomeneu l'àrea d'exportació de manera que coincideixi amb el nom del fitxer PNG de destinació, indicant la ruta relativa des de l'arrel del directori font. 3. Configura la secció (slice) perquè s'exporti a "800w".
 
-## Translations
+## Traduccions
 
-If you want to contribute to translating Pro Git into your language, take a look at [TRANSLATING.md](TRANSLATING.md).
+Si vols col·laborar en la traducció de Pro Git al teu idioma, consulta [TRANSLATING.md](TRANSLATING.md).
