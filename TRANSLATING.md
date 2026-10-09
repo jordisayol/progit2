@@ -1,97 +1,96 @@
-# Translating Pro Git (2nd Edition)
+# Traducció de Pro Git (2a edició)
 
-The translations are managed in a decentralized way. Each translation team maintains their own project. Each translation is in its own repository, the Pro Git team simply pulls the changes and builds them into the https://git-scm.com website when ready.
+Les traduccions es gestionen de manera descentralitzada. Cada equip de traducció manté el seu propi projecte. Cada traducció es troba en el seu propi repositori; l'equip de Pro Git simplement incorpora els canvis i els integra al lloc web https://git-scm.com quan estan a punt.
 
-## General guidance for translating Pro Git
+## Orientacions generals per traduir Pro Git
 
-Pro Git is a book about a technical tool, therefore translating it is difficult compared to a non-technical translation.
+Pro Git és un llibre sobre una eina tècnica; per tant, traduir-lo és més complex que fer una traducció no tècnica.
 
-The following are guidelines to help you on your way:
-* Before you begin, read the whole Git Pro book in English, so that you're aware of the content, and are familiar with the style used.
-* Ensure you have a good working knowledge of Git, so that explaining the technical terms is doable.
-* Stick to a common style and format for the translation.
-* Be sure to read and understand the basics of [Asciidoc formatting](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/). Not following the asciidoc syntax can lead to problems with building/compilation of the pdf, epub and html files needed for the book.
+A continuació, trobareu algunes pautes per ajudar-vos en el procés:
+* Abans de començar, llegiu tot el llibre Pro Git en anglès per conèixer-ne el contingut i familiaritzar-vos amb l'estil utilitzat.
+* Assegureu-vos de tenir un bon coneixement pràctic de Git per poder explicar els termes tècnics adequadament.
+* Manteniu un estil i un format coherents en la traducció.
+* Assegureu-vos de llegir i entendre els conceptes bàsics del format [Asciidoc](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/). No seguir la sintaxi d'Asciidoc pot provocar problemes en la generació o compilació dels fitxers PDF, EPUB i HTML necessaris per al llibre.
 
-## Translating the book to another language
+## Traducció del llibre a un altre idioma
 
-### Helping with a existing project
+### Col·laborar en un projecte existent
 
-* Check for an already existing project in the following table.
-* Go to the project's page on GitHub.
-* Open an issue, introduce yourself and ask where you can help.
+* Comproveu si ja existeix un projecte a la taula següent.
+* Aneu a la pàgina del projecte a GitHub.
+* Obriu una incidència (*issue*), presenteu-vos i pregunteu en què podeu ajudar.
 
-| Language     | GitHub page     |
+| Idioma     | Pàgina de GitHub     |
 | :------------- | :------------- |
-| العربية | [progit2-ar/progit2](https://github.com/progit2-ar/progit2) |
-| Беларуская  | [progit/progit2-be](https://github.com/progit/progit2-be) |
-| български език | [progit/progit2-bg](https://github.com/progit/progit2-bg) |
-| Čeština    | [progit-cs/progit2-cs](https://github.com/progit-cs/progit2-cs) |
-| English    | [progit/progit2](https://github.com/progit/progit2) |
-| Español    | [progit/progit2-es](https://github.com/progit/progit2-es) |
+| Àrab | [progit2-ar/progit2](https://github.com/progit2-ar/progit2) |
+| Bielorús  | [progit/progit2-be](https://github.com/progit/progit2-be) |
+| Búlgar | [progit/progit2-bg](https://github.com/progit/progit2-bg) |
+| Txec    | [progit-cs/progit2-cs](https://github.com/progit-cs/progit2-cs) |
+| Anglès | [progit/progit2](https://github.com/progit/progit2) |
+| Espanyol | [progit/progit2-es](https://github.com/progit/progit2-es) |
 | فارسی | [progit2-fa/progit2](https://github.com/progit2-fa/progit2) |
-| Français   | [progit/progit2-fr](https://github.com/progit/progit2-fr) |
-| Deutsch    | [progit/progit2-de](https://github.com/progit/progit2-de) |
-| Ελληνικά   | [progit2-gr/progit2](https://github.com/progit2-gr/progit2) |
-| Indonesian | [progit/progit2-id](https://github.com/progit/progit2-id) |
-| Italiano   | [progit/progit2-it](https://github.com/progit/progit2-it) |
-| 日本語   | [progit/progit2-ja](https://github.com/progit/progit2-ja) |
-| 한국어   | [progit/progit2-ko](https://github.com/progit/progit2-ko) |
+| Francès | [progit/progit2-fr](https://github.com/progit/progit2-fr) ​​|
+| Alemany | [progit/progit2-de](https://github.com/progit/progit2-de) |
+| Ελληνικά | [progit2-gr/progit2](https://github.com/progit2-gr/progit2) |
+| indonesi | [progit/progit2-id](https://github.com/progit/progit2-id) |
+| Italià | [progit/progit2-it](https://github.com/progit/progit2-it) |
+| 日本語 | [progit/progit2-ja](https://github.com/progit/progit2-ja) |
+| 한국어 | [progit/progit2-ko](https://github.com/progit/progit2-ko) |
 | Македонски | [progit2-mk/progit2](https://github.com/progit2-mk/progit2) |
 | Bahasa Melayu| [progit2-ms/progit2](https://github.com/progit2-ms/progit2) |
-| Nederlands | [progit/progit2-nl](https://github.com/progit/progit2-nl) |
+| Holanda | [progit/progit2-nl](https://github.com/progit/progit2-nl) |
 | Polski | [progit2-pl/progit2-pl](https://github.com/progit2-pl/progit2-pl) |
 | Português (Brasil) | [progit/progit2-pt-br](https://github.com/progit/progit2-pt-br) |
-| Русский   | [progit/progit2-ru](https://github.com/progit/progit2-ru) |
-| Slovenščina  | [progit/progit2-sl](https://github.com/progit/progit2-sl) |
-| Српски   | [progit/progit2-sr](https://github.com/progit/progit2-sr) |
-| Svenska  | [progit2-sv/progit2](https://github.com/progit2-sv/progit2) |
-| Tagalog   | [progit2-tl/progit2](https://github.com/progit2-tl/progit2) |
-| Türkçe   | [progit/progit2-tr](https://github.com/progit/progit2-tr) |
+| Русский | [progit/progit2-ru](https://github.com/progit/progit2-ru) |
+| Eslovenščina | [progit/progit2-sl](https://github.com/progit/progit2-sl) |
+| Српски | [progit/progit2-sr](https://github.com/progit/progit2-sr) |
+| Svenska | [progit2-sv/progit2](https://github.com/progit2-sv/progit2) |
+| Tagalog | [progit2-tl/progit2](https://github.com/progit2-tl/progit2) |
+| Türkçe | [progit/progit2-tr](https://github.com/progit/progit2-tr) |
 | Українська| [progit/progit2-uk](https://github.com/progit/progit2-uk) |
-| Ўзбекча  | [progit/progit2-uz](https://github.com/progit/progit2-uz) |
-| 简体中文  | [progit/progit2-zh](https://github.com/progit/progit2-zh) |
-| 正體中文  | [progit/progit2-zh-tw](https://github.com/progit/progit2-zh-tw) |
+| Ўзбекча | [progit/progit2-uz](https://github.com/progit/progit2-uz) |
+| 简体中文 | [progit/progit2-zh](https://github.com/progit/progit2-zh) |
+| 正體中文 | [progit/progit2-zh-tw](https://github.com/progit/progit2-zh-tw) |
 
-### Starting a new translation
+### Començar una nova traducció
 
-If there is no project for your language, you can start your own translation.
+Si no hi ha cap projecte per al teu idioma, pots començar la teva pròpia traducció.
 
-Base your work on the second edition of the book, available [here](https://github.com/progit/progit2). To do so:
- 1. Pick the correct [ISO 639 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
- 1. Create a [GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), for example: `progit2-[your code]` on GitHub.
- 1. Create a project `progit2`.
- 1. Copy the structure of progit/progit2 (this project) in your project and start translating.
+Basat en la segona edició del llibre, disponible [aquí](https://github.com/progit/progit2). Per fer-ho:
+1. Tria el [codi ISO 639](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) correcte per al teu idioma. 
+1. Crea una [organització de GitHub](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), per exemple: `progit2-[el_teu_codi]`, a GitHub. 
+1. Crea un projecte anomenat `progit2`. 
+1. Copia l'estructura de progit/progit2 (aquest projecte) al teu projecte i comença a traduir.
 
-### Updating the status of your translation
+### Actualitzar l'estat de la traducció
 
-On https://git-scm.com, the translations are divided into three categories. Once you have reached one of these levels, contact the maintainers of https://git-scm.com/ so that they can pull the changes.
+A https://git-scm.com, les traduccions es divideixen en tres categories. Un cop hagis assolit un d'aquests nivells, contacta amb els responsables de https://git-scm.com/ perquè puguin incorporar els canvis.
 
-| Category | Completion     |
+| Categoria | Estat de finalització |
 | :------------- | :------------- |
-| Translation started for | Introduction translated, not much else. |
-| Partial translations available in | up to chapter 6 has been translated. |
-| Full translation available in |the book is (almost) fully translated. |
+| Traducció iniciada per a | Introducció traduïda; poca cosa més. |
+| Traduccions parcials disponibles a | s'ha traduït fins al capítol 6. |
+| Traducció completa disponible a | el llibre està (gairebé) traduït completament. |
 
-## Continuous integration with GitHub Actions
+## Integració contínua amb GitHub Actions
 
-GitHub Actions is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) service that integrates with GitHub. GitHub Actions is used to ensure that a pull-request doesn't break the build or compilation. GitHub Actions can also provide compiled versions of the book.
+GitHub Actions és un servei d'[integració contínua](https://en.wikipedia.org/wiki/Continuous_integration) que s'integra amb GitHub. GitHub Actions s'utilitza per a garantir que una sol·licitud d'integració (*pull request*) no trenqui la compilació. GitHub Actions també pot proporcionar versions compilades del llibre.
 
-The configuration for GitHub Actions is contained in the `.github/workflows` directory, and if you bring in the `main` branch of the root repository you'll get them for free.
-However, if you created your translation repo by _forking_ the root repo, there's an extra step you must complete (if you did not fork, you can skip this part).
-GitHub assumes that forks will be used to contribute to the repo from which they were forked, so you'll have to visit the "Actions" tab on your forked repo, and click the "I understand my workflows" button to allow the actions to run.
+La configuració de GitHub Actions es troba al directori `.github/workflows`; si incorpores la branca `main` del repositori principal, ja disposaràs d'aquesta funcionalitat automàticament.
+Tanmateix, si has creat el repositori de la traducció fent un *fork* del repositori principal, cal fer un pas addicional (si no has fet un *fork*, pots saltar-te aquesta part).
+GitHub parteix de la base que els *forks* s'utilitzaran per contribuir al repositori d'origen; per tant, hauràs d'anar a la pestanya "Actions" del teu repositori derivat i fer clic al botó "I understand my workflows" per permetre l'execució de les accions.
 
-## Setting up a publication chain for e-books
+## Configuració d'una cadena de publicació per a llibres electrònics
 
-This is a technical task, please ping @jnavila to get started with epub publication.
+Aquesta és una tasca tècnica; contacta amb @jnavila per començar amb la publicació en format EPUB.
 
-## Beyond Pro Git
+## Més enllà de Pro Git
 
-Translating the book is the first step. Once this is finished, you could consider translating the user interface of Git itself.
+Traduir el llibre és el primer pas. Un cop acabat, pots plantejar-te traduir la interfície d'usuari del mateix Git.
 
-This task requires a more technical knowledge of the tool than the book. Hopefully, after having translated the full book content, you can understand the terms used in the application. If you feel technically up to the task, the repo is [here](https://github.com/git-l10n/git-po) and you just have to follow the [guide](https://github.com/git-l10n/git-po/blob/master/po/README.md).
+Aquesta tasca requereix coneixements tècnics de l'eina més avançats que els necessaris per al llibre. És d'esperar que, després d'haver traduït tot el contingut del llibre, entenguis els termes que utilitza l'aplicació. Si et veus capacitat tècnicament per assumir la tasca, trobaràs el repositori [aquí](https://github.com/git-l10n/git-po) i només caldrà que segueixis la [guia](https://github.com/git-l10n/git-po/blob/master/po/README.md).
 
-Beware though that
+Tingues en compte, però, que:
 
- * you'll need to use more specific tools to manage localization po files (such as editing them with [poedit](https://poedit.net/)) and merging them. You might need to compile git in order to check your work.
- * a basic knowledge of how translating applications works is required, which is significantly different from translating books.
- * the core Git project uses more stringent [procedures](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) to accept contributions, be sure to abide by them.
+* hauràs d'utilitzar eines més específiques per gestionar els fitxers de localització `.po` (com ara editar-los amb [poedit](https://poedit.net/)) i per fusionar-los. És possible que hagis de compilar el Git per verificar la teva feina. 
+* calen coneixements bàsics sobre com es tradueixen les aplicacions, un procés força diferent de la traducció de llibres. El projecte principal de Git utilitza [procediments](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) més estrictes per acceptar contribucions; assegura't de complir-los.
